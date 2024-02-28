@@ -32,5 +32,5 @@ Config.Rewards = {  --REWARDS
 <h1>Insert this line on your sql</h1>
 
 ```sql
-ALTER TABLE users ADD prop INT DEFAULT(0);
+ALTER TABLE users ADD boost INT DEFAULT(0);
 ```
