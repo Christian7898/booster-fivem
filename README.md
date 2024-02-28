@@ -29,3 +29,8 @@ Config.Rewards = {  --REWARDS
     {item = "money", amount = 1000},
 }
 ```
+<h1>Insert this line on your sql</h1>
+
+```sql
+ALTER TABLE users ADD prop INT DEFAULT(0);
+```
